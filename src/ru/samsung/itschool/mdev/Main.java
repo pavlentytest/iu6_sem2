@@ -64,6 +64,13 @@ public class Main {
 
         move.doMove();
 
+        int x = 0;
+        if(x > 0) {
+            System.out.println("Ura!");
+        } else {
+            System.out.println("Ne ura!");
+        }
+        String str3 = x>0 ? "Ura" : "Ne ura!";
 
     }
 }
