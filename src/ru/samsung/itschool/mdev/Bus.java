@@ -6,8 +6,5 @@ public class Bus extends Car implements Movable {
 
     }
 
-    @Override
-    public void doStop() {
 
-    }
 }

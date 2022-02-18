@@ -1,6 +1,8 @@
 package ru.samsung.itschool.mdev;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -29,13 +31,13 @@ public class Main {
 
         }
 
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         String str2 = scanner.nextLine();
         String word = scanner.next();
-
-        String a_ = Integer.toString(a);
-        int str2_ = Integer.parseInt(str2); // "123"
+*/
+ //       String a_ = Integer.toString(a);
+//        int str2_ = Integer.parseInt(str2); // "123"
 
 	    // инкапсуляция (incapsulation)
         // полиморфизм (polymorphism)
@@ -71,6 +73,27 @@ public class Main {
             System.out.println("Ne ura!");
         }
         String str3 = x>0 ? "Ura" : "Ne ura!";
+
+        Random r = new Random();
+        int y = r.nextInt(1000);
+
+        // Math.random();
+
+        String z = "123123";
+        if (z.equals("46754")) {
+
+        }
+
+        String a1 = "Hello";
+        String a2 = "Hello";
+       //! System.out.println(a1==a2);
+        System.out.println(a1.equals(a2));
+        String a3 = new String("Msk");
+        String a4 = new String("Msk");
+        System.out.println(a3==a4);
+
+        //ArrayList
+        //Collections.
 
     }
 }

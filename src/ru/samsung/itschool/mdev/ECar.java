@@ -10,11 +10,6 @@ public class ECar extends Car {
     }
 
     @Override
-    void doSmth() {
-        // Реализация
-    }
-
-    @Override
     void doMove() {
         System.out.println("Ecar moving...");
     }
